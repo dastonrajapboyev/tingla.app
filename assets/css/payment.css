@@ -1,0 +1,149 @@
+.payment_section {
+   position: relative;
+   z-index: 5;
+   margin-top: 268px;
+}
+.payment_section .bem_flex {
+   background-color: #F9E0C7;
+}
+.payment_info {
+   margin: 109px 0 0 61px;
+}
+.payment_img {
+   margin-top: -230px;
+}
+.payment_section .shape-3 {
+   top: 57px;
+   left: 1050px;
+   right: 0;
+}
+
+/* payment section media queries */
+
+@media screen and (max-width: 1200px) {
+   .payment_info {
+      margin: 89px 0 0 41px;
+   }
+   .payment_info .bem_title {
+      font-size: 44px;
+      line-height: 49px;
+   }
+   .payment_info .bem_subtitle {
+      font-size: 18px;
+      line-height: 30px;
+      margin-top: 20px;
+   }
+   .payment_img {
+      margin-top: -150px;
+   }
+   .payment_img img {
+      width: 362px;
+      height: 691px;
+      object-fit: cover;
+   }
+   .payment_section .shape-3 {
+      top: 57px;
+      left: 900px;
+      right: 0;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .payment_section {
+      margin-top: 178px;
+   }
+   .payment_section .bem_flex {
+      height: 100%;
+   }
+   .payment_info {
+      margin: 49px 0 0 21px;
+   }
+   .payment_info .bem_title {
+      font-size: 40px;
+      line-height: 45px;
+   }
+   .payment_info .bem_subtitle {
+      font-size: 19px;
+      line-height: 33px;
+   }
+   .payment_img {
+      margin-top: -130px;
+   }
+   .payment_img img {
+      width: 332px;
+      height: 591px;
+   }
+   .payment_section .shape-3 {
+      top: -600px;
+      left: 0px;
+      right: 0;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .payment_section {
+      margin-top: 208px;
+   }
+   .payment_section .bem_flex {
+      flex-direction: column;
+      align-items: center;
+   }
+   .payment_info {
+      padding: 0 20px;
+      margin: 49px 0 0 21px;
+   }
+   .payment_info .bem_title {
+      font-size: 36px;
+      line-height: 40px;
+   }
+   .payment_info .bem_subtitle {
+      font-size: 18px;
+      line-height: 30px;
+   }
+   .payment_img {
+      margin-top: 40px;
+      margin-bottom: -130px;
+   }
+   .payment_img img {
+      width: 332px;
+      height: 591px;
+   }
+   .payment_section .shape-3 {
+      top: 80px;
+      left: 400px;
+      right: 0;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .payment_section {
+      margin-top: 108px;
+   }
+   .payment_section .bem_flex {
+      flex-direction: column-reverse;
+   }
+   .payment_info {
+      padding: 0 20px 30px 20px;
+      margin: 139px 0 0 0px;
+   }
+   .payment_info .bem_title {
+      font-size: 26px;
+      line-height: 32px;
+   }
+   .payment_info .bem_subtitle {
+      font-size: 16px;
+      line-height: 30px;
+   }
+   .payment_img {
+      margin-top: 40px;
+      margin-top: -130px;
+   }
+   .payment_img img {
+      height: 516px;
+      object-fit: contain;
+   }
+   .payment_section .shape-3 {
+      top: 20px;
+      left: 0px;
+   }
+}

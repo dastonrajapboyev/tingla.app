@@ -1,0 +1,249 @@
+.header {
+   position: relative;
+   z-index: 5;
+   padding-top: 60px;
+}
+.main_block {
+   position: relative;
+   z-index: 5;
+   padding-top: 25px;
+}
+.abstract_shape__images {
+   position: absolute;
+}
+.shape-1 {
+   position: relative;
+   left: 20px;
+   top: 570px;
+}
+.shape-2 {
+   position: relative;
+   left: 640px;
+   bottom: 130px;
+}
+.shape-3 {
+   position: relative;
+   top: 600px;
+   left: 820px;
+}
+.main_block__page {
+   display: flex;
+}
+.main_block__body {
+   margin-top: 163px;
+}
+.main_block__title {
+   width: 700px;
+   font-size: 80px;
+   line-height: 96px;
+   font-weight: 700;
+   letter-spacing: -2%;
+}
+.main_block__text {
+   margin-top: 24px;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 36px;
+}
+.main_block__button {
+   margin-top: 70px;
+}
+.main_block__button a{
+   padding: 18px 40px;
+   background: #0F0F54;
+   color: #fff;
+   border-radius: 8px;
+}
+/* main block media queries--------------------- */
+@media screen and (max-width: 1200px) {
+   .main_block {
+      padding-top: 20px;
+   }
+   .main_block__title {
+      width: 90%;
+      font-size: 70px;
+      line-height: 76px;
+   }
+   .main_block__text {
+      margin-top: 18px;
+      font-size: 23px;
+      line-height: 30px;
+   }
+   .main_block__button {
+      margin-top: 60px;
+   }
+   .main_block__button a{
+      padding: 16px 36px;
+   }
+   .shape-2 {
+      left: 340px;
+   }
+   .shape-3 {
+      top: 600px;
+      left: 520px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .main_block {
+      width: 100%;
+      padding-top: 16px;
+   }
+   .main_block__page {
+      width: 100%;
+   }
+   .main_block__body {
+      width: 100%;
+      margin-top: 120px;
+   }
+   .main_block__title {
+      width: 100%;
+      font-size: 56px;
+      line-height: 66px;
+   }
+   .main_block__button {
+      margin-top: 50px;
+   }
+   .main_block__img {
+      width: 100%;
+   }
+   .main_block__img img {
+      object-fit: cover;
+      height: 600px;
+   }
+   .shape-1 {
+      position: relative;
+      left: 0px;
+      top: 470px;
+   }
+   .shape-2 {
+      position: relative;
+      left: 340px;
+      bottom: 120px;
+   }
+   .shape-3 {
+      position: relative;
+      top: 500px;
+      left: 380px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .header {
+      padding-top: 20px;
+   }
+   .mobil_nav {
+      display: flex;
+      justify-content: space-between;
+   }
+   .nav {
+      margin-top: 52px;
+   }
+   .logo img {
+      width: 113px;
+   }
+   .main_block__page {
+      align-content: center;
+      flex-direction: column;
+   }
+   .main_block__body {
+      width: 100%;
+      margin-top: 60px;
+   }
+   .main_block__title {
+      width: 100%;
+      font-size: 46px;
+      line-height: 66px;
+   }
+   .main_block__button {
+      margin-top: 50px;
+   }
+   .main_block__img {
+      width: 100%;
+      object-fit: cover;
+      text-align: center;
+   }
+   .main_block__img img {
+      width: 303px;
+      height: 100%;
+      object-fit: cover;
+   }
+   .shape-1 {
+      width: 70px;
+      position: relative;
+      left: 10px;
+      top: 730px;
+   }
+   .shape-2 {
+      width: 70px;
+      position: relative;
+      left: 140px;
+      bottom: 120px;
+   }
+   .shape-3 {
+      width: 70px;
+      position: relative;
+      top: 300px;
+      left: 280px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .main_block__page {
+      align-content: center;
+      flex-direction: column-reverse;
+   }
+   .main_block__body {
+      width: 100%;
+      margin-top: 60px;
+   }
+   .main_block__title {
+      width: 90%;
+      font-size: 36px;
+      line-height: 42px;
+   }
+   .main_block__text {
+      margin-top: 16px;
+      font-size: 18px;
+      line-height: 32px;
+   }
+   .main_block__button {
+      margin-top: 46px;
+   }
+   .main_block__button a{
+      padding: 18px 30px;
+      font-size: 18px;
+      line-height: 21px;
+   }
+   .main_block__img {
+      width: 100%;
+      object-fit: cover;
+      text-align: center;
+   }
+   .main_block__img img {
+      width: 303px;
+      height: 100%;
+      object-fit: cover;
+   }
+   .shape-1 {
+      left: -20px;
+      top: 220px;
+   }
+   .shape-2 {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      left: 210px;
+      top: 60px;
+   }
+   .shape-3 {
+      position: relative;
+      top: 770px;
+      left: 120px;
+   }
+}
+@media screen and (min-width: 769px) {
+   .mobil_nav {
+      display: none;
+   }
+}

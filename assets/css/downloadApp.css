@@ -1,0 +1,143 @@
+.downloadApp__section {
+   position: relative;
+   z-index: 5;
+   margin: 145px 0 170px 0;
+}
+.download_body {
+   background-color: #F8F8F8;
+   display: flex;
+   padding: 0 60px;
+   border-radius: 20px;
+}
+.download_info {
+   margin: 162px 0 0 55px;
+}
+.download_title {
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 52px;
+}
+.download_link__images {
+   margin-top: 50px;
+}
+.download_link__images img:not(:last-child){
+   margin-right: 10px;
+}
+.download_shape .shape-2 {
+   left: -140px;
+   bottom: 90px;
+   transform: rotate(40deg);
+}
+
+/* downloadApp section media queries */
+
+@media screen and (max-width: 1200px) {
+   .downloadApp__section {
+      margin: 125px 0 140px 0;
+   }
+   .download_body {
+      padding: 0 30px;
+   }
+   .download_info {
+      margin: 142px 0 0 45px;
+   }
+   .download_title {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 45px;
+   }
+   .download_link__images {
+      margin-top: 30px;
+   }
+   .download_shape .shape-2 {
+      left: -100px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   .download_body {
+      padding: 0 20px;
+   }
+   .download_info {
+      margin: 102px 0 0 35px;
+   }
+   .download_title {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 40px;
+   }
+   .download_link__images {
+      margin-top: 20px;
+   }
+   .download_link__images img {
+      width: 70%;
+      margin-top: 10px;
+   }
+   .download_shape .shape-2 {
+      left: 600px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .downloadApp__section {
+      margin-top: 265px;
+   }
+   .download_body {
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 0 10px;
+   }
+   .download_info {
+      margin: 42px 0 0 35px;
+   }
+   .download_img img {
+      width: 320px;
+      height: 390px;
+      margin-top: 0px;
+   }
+   .download_link__images {
+      margin-top: 20px;
+      text-align: center;
+   }
+   .download_link__images img {
+      width: auto;
+      margin-top: 10px;
+   }
+   .download_link__images img:not(:last-child) {
+      margin-right: 30px;
+   }
+   .download_shape .shape-2 {
+      width: 120px;
+      height: 120px;
+      left: -20px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .downloadApp__section {
+      margin-top: 265px;
+   }
+   .download_body {
+      flex-direction: column;
+      height: 290px;
+   }
+   .download_title {
+      font-size: 26px;
+      line-height: 36px;
+   }
+   .download_img img {
+      width: 320px;
+      height: 390px;
+      margin-top: -100px;
+   }
+   .download_link__images {
+      margin-top: 40px;
+      display: flex;
+   }
+   .download_link__images img {
+      width: 162px;
+   }
+   .download_shape .shape-2 {
+      display: none;
+   }
+}
